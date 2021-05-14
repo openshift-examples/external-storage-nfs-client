@@ -139,6 +139,6 @@ parameters:
 - name: NFS_PATH
   required: true
 - name: PROVISIONER_IMAGE
-  value: quay.io/external_storage/nfs-client-provisioner:latest
+  value: k8s.gcr.io/sig-storage/nfs-subdir-external-provisioner:v4.0.2
 - name: PROVISIONER_NAME
   value: "redhat-emea-ssa-team/hetzner-ocp4"
