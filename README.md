@@ -1,9 +1,9 @@
 # external-storage-nfs-client - !NOT FOR PRODUCTION!
 
-Based on a retired project: <https://github.com/kubernetes-retired/external-storage/tree/master/nfs-client>
+Based on a project: <https://github.com/kubernetes-sigs/nfs-subdir-external-provisioner>
 
 For more details please
-checkout: <https://examples.openshift.pub/storage/nfs://examples.openshift.pub/cluster-configuration/storage/nfs/>  
+checkout: <https://examples.openshift.pub/cluster-configuration/storage/nfs/>  
 
 
 ### Deployment
