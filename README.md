@@ -22,7 +22,7 @@ oc process -f https://raw.githubusercontent.com/openshift-examples/external-stor
 
 ```bash
 oc image mirror -a ${LOCAL_SECRET_JSON} \
-  k8s.gcr.io/sig-storage/nfs-subdir-external-provisioner:v4.0.2 \
+  registry.k8s.io/sig-storage/nfs-subdir-external-provisioner:v4.0.2 \
   ${LOCAL_REGISTRY}/${LOCAL_REPOSITORY}:nfs-client-provisioner-latest
 
 curl -L -O https://raw.githubusercontent.com/openshift-examples/external-storage-nfs-client/main/openshift-template-nfs-client-provisioner.yaml
